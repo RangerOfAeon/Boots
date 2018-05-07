@@ -1,0 +1,1543 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body
+{
+	width:100%;
+	height:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 60px;
+	font-family: Verdana, Helvetica, Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #333333;
+}
+
+body,th {
+	font-family: Arial, Verdana;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+ul{
+	margin-left: 10px;
+}
+
+#page_container
+{
+	//position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+        margin-bottom: 90px;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#page_popup_box
+{
+	position:absolute;
+	width: 800px;
+	height: 600px;
+	top: 50px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 0px;
+	padding-left:0px;
+	padding-top:0px;
+	font-size: 14px;
+	font-family: Trebuchet MS, Trebuchet, Arial, Verdana, Helvetica;
+	color: #7C7C7C;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#video_popup_box
+{
+	position:fixed;
+	width: 800px;
+	height: 600px;
+	top: 50px;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: 0px;
+	padding-left:0px;
+	padding-top:0px;
+	font-size: 14px;
+	font-family: Trebuchet, Arial, Verdana, Helvetica;
+	color: #7C7C7C;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+div#main_content
+{
+	width:980px;
+	margin:auto;
+  background-color:#FFFFFF;
+  border-top: 0px;
+  border-top-width: 0px;
+
+  border-left: 1px;
+  border-left-width: 1px;
+  border-left-style:solid;
+ 	border-left-color:#666666;
+
+  border-right: 1px;
+  border-right-width: 1px;
+  border-right-style:solid;
+  border-right-color:#666666;
+
+  border-bottom: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style:solid;
+  border-bottom-color:#666666;
+}
+
+.border_1_left_1px
+{
+	border-left: 1px;
+	border-left-width: 1px;
+	border-left-style:solid;
+	border-left-color:#666666;
+	border-right: 1px;
+	border-right-width: 1px;
+	border-right-style:solid;
+	border-right-color:#666666;
+}
+
+.border_1_left_only_1px
+{
+	border-left: 1px;
+	border-left-width: 1px;
+	border-left-style:solid;
+	border-left-color:#666666;
+        padding-right: 20px;
+}
+
+.border_1_bottom_1px
+{
+	border-bottom: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:#666666;
+}
+
+.border_1_top_1px
+{
+	border-top: 1px;
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:#666666;
+}
+
+.border_2_left_1px
+{
+	border-left: 1px;
+	border-left-width: 1px;
+	border-left-style:solid;
+	border-left-color:#D9D9D9;
+}
+
+.border_2_bottom_1px
+{
+	border-bottom: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:#D9D9D9;
+}
+
+.main_blue{color: #06ABE3;}
+
+.logo_and_biz_card_combo_bonus_header {
+  position: absolute;
+  width: 156px;
+  height: 75px;
+  margin-top:-53px;
+  margin-left:315px;
+  z-index:500;
+}
+
+.high_res_comparison_grid_popup {
+  display: none;
+  position: absolute;
+  width: 377px;
+  margin-left:-40px;
+  z-index:500;
+  font-family: Arial, Verdana; font-size: 12px; color: #666666; text-decoration:none; font-weight: bold; font-style:none;
+}
+
+.high_res_comparison_grid_popup_header{font-family: Arial, Verdana; font-size: 20px; color: #FFFFFF; text-decoration:none; font-weight: bold; font-style:none;}
+.high_res_comparison_grid_popup_description{font-family: Arial, Verdana; font-size: 14px; color: #666666; text-decoration:none; font-weight: bold; font-style:none; background: #FFFFFF; padding-left:15px; padding-right:15px; padding-top:10px;}
+
+
+.high_res_comparison_grid
+{
+	border-left: 0px;
+	border-left-width: 0px;
+
+	border-top: 1px;
+	border-top-width: 1px;
+	border-top-style:solid;
+	border-top-color:#D7D7D7;
+	
+	border-right: 1px;
+	border-right-width: 1px;
+	border-right-style:solid;
+	border-right-color:#D7D7D7;
+	
+	border-bottom: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style:solid;
+	border-bottom-color:#D7D7D7;
+
+	font-family: Arial, Verdana; font-size: 16px; color: #666666; text-decoration:none; font-weight: bold; font-style:none;
+}
+
+.high_res_comparison_grid_cell_border_b
+{
+	border-bottom:2px;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color:#D7D7D7;
+}
+
+.high_res_comparison_grid_cell_border_r
+{
+	border-right: 2px;
+	border-right-width: 2px;
+	border-right-style:solid;
+	border-right-color:#D7D7D7;
+}
+
+.high_res_comparison_grid_cell_border_b_r
+{
+	border-right: 2px;
+	border-right-width: 2px;
+	border-right-style:solid;
+	border-right-color:#D7D7D7;
+	
+	border-bottom:2px;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+	border-bottom-color:#D7D7D7;
+}
+
+.high_res_grid_text{font-family: Arial, Verdana; font-size: 16px; color: #666666; text-decoration:none; font-weight: bold; font-style:none;}
+
+.high_res_grid_left_box_text{font-family: Arial, Verdana; font-size: 20px; color: #FFFFFF; text-decoration:none; font-weight: bold; font-style:none;}
+
+.high_res_grid_left_box_additional_products_text{font-family: Arial, Verdana; font-size: 14px; color: #FFFFFF; text-decoration:none; font-weight: bold; font-style:none; line-height:25px;}
+
+a.high_res_grid_left_box_anchor_link_1:link, a.high_res_grid_left_box_anchor_link_1:visited{ font-size: 14px; font-family: Arial,Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: bold; text-decoration: underline; line-height:30px;}
+a.high_res_grid_left_box_anchor_link_1:hover,a.high_res_grid_left_box_anchor_link_1:active{ font-size: 14px; font-family: Arial ,Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: bold; text-decoration: underline; line-height:30px;}
+
+.high_res_grid_link_text {font-family: Arial, Verdana;font-size: 14px; color: #8B8989; text-decoration:none; font-weight: bold; font-style:none; line-height:18px;}
+
+a.high_res_grid_link:link, a.high_res_grid_link:visited, a.high_res_grid_link:hover, a.high_res_grid_link:active {font-family: Arial, Verdana;font-size: 14px; color: #8B8989; text-decoration:underline; font-weight: bold; font-style:none; line-height:18px;}
+
+a.high_res_grid_link_no_underline:link, a.high_res_grid_link_no_underline:visited, a.high_res_grid_link_no_underline:hover, a.high_res_grid_link_no_underline:active {font-family: Arial, Verdana;font-size: 16px; color: #8B8989; text-decoration:none; font-weight: bold; font-style:none;}
+
+.choose_bonus_pack_text{font-family: Arial, Verdana; font-size: 24px; color: #000000; text-decoration:none; font-weight:bold; font-style:none;}
+
+.high_res_comparison_grid_select_files_text{font-family: Arial, Verdana; font-size: 22px; color: #0072AB; text-decoration:none; font-weight:bold; font-style:none;}
+
+.high_res_comparison_grid_select_files_sub_text{font-family: Arial, Verdana; font-size: 11px; color: #999999; text-decoration:none; font-weight:bold; font-style:italic;}
+
+.high_res_comparison_grid_percent_off{font-family: Arial, Verdana; font-size: 20px; color: #EE311E; text-decoration:none; font-weight:bolder; font-style:none;}
+.high_res_comparison_grid_percent_off_percent_sign{font-family: Arial, Verdana; font-size: 20px; color: #EE311E; text-decoration:none; font-weight:bold; font-style:none;}
+.high_res_comparison_grid_percent_off_smaller{font-family: Arial, Verdana; font-size: 12px; color: #EE311E; text-decoration:none; font-weight:bold; font-style:none;}
+
+.biz_card_image_border
+{
+   border:1px solid #999999;
+}
+
+.biz_card_sale_heading{font-size: 30px; line-height: 30px; font-family: 'Open Sans', arial, sans-serif; color: #B60000; font-weight:normal; text-decoration: none;}
+
+.biz_card_button_subtext{font-size: 14px; font-family: 'Open Sans', arial, sans-serif; color: #796D6D; font-weight:normal; text-decoration: none;}
+
+a.link_biz_card_quality:link, a.link_biz_card_quality:visited, a.link_biz_card_quality:hover, a.link_biz_card_quality:active{font-size: 14px; font-family: 'Open Sans', arial, sans-serif; color: #796D6D; font-weight:normal; text-decoration: underline;}
+
+.biz_card_edit_link_other_text{ font-size: 18px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #5E5A5A; font-weight: normal; text-decoration: none;}
+
+a.biz_card_edit_link_orange:link, a.biz_card_edit_link_orange:visited{ font-size: 18px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FF8226; font-weight: bold; text-decoration: underline;}
+a.biz_card_edit_link_orange:hover,a.biz_card_edit_link_orange:active{ font-size: 18px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FF8226; font-weight: bold; text-decoration: underline;}
+
+
+.biz_card_processing_special_message_title{font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #06ABE3; font-weight:normal; text-decoration: none;}
+
+.biz_card_processing_special_message_text{font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #666666; font-weight:normal; text-decoration: none;}
+
+.facebook_post_instructions{font-family: Verdana, Arial; font-size: 12px; color: #9A9A9A; text-decoration:none; font-weight: bold; font-style:italic;}
+
+.account_page_main_text{font-family: Verdana; font-size: 12px; color: #999999; text-decoration: none; font-weight: normal; font-style:none;}
+
+
+.login_link_text{font-family: Verdana; font-size: 12px; color: #818181; text-decoration: none; font-weight: normal; font-style:none;}
+
+.account_hello{ font-size: 22px; font-family:'Open Sans', Arial, Verdana, sans-serif, 'Times New Roman'; color: #FFFFFF; font-weight: bold; text-decoration: none;}
+
+#top_cart_num_items_in_cart{font-size: 16px; font-family:'Open Sans', Arial, Verdana, sans-serif, 'Times New Roman'; color: #FF8214; font-weight: bold; text-decoration: none; margin-left:18px; margin-top:-4px;}
+
+.cart_icon_text_checkout_off{font-family: Trebuchet MS, Trebuchet, Arial, Verdana, Helvetica, sans-serif; font-size: 15px; color: #A1A1A1; text-decoration:none; font-weight: normal;}
+
+a.cart_icon_text_checkout_off:link, a.cart_icon_text_checkout_off:visited, a.cart_icon_text_checkout_off:hover, a.cart_icon_text_checkout_off:active {font-family: Trebuchet MS, Trebuchet, Arial, Verdana, Helvetica, sans-serif; font-size: 15px; color: #A1A1A1; text-decoration:none; font-weight: normal;}
+
+a.cart_icon_text_checkout_on:link, a.cart_icon_text_checkout_on:visited, a.cart_icon_text_checkout_on:hover, a.cart_icon_text_checkout_on:active {font-family: Trebuchet MS, Trebuchet, Arial, Verdana, Helvetica, sans-serif; font-size: 15px; color: #EF8803; text-decoration:none; font-weight: normal;}
+
+.account_welcome{font-family: Trebuchet MS, Trebuchet, sans-serif, Arial, Verdana, Helvetica; font-size: 14px; color: #666666; text-decoration:none; font-weight: normal;}
+
+.item_in_cart{font-family: Arial, Verdana; font-size: 11px; color: #999999; text-decoration: none; font-weight: normal; font-style:none;}
+
+.account_update_links{font-family: 'Ubuntu', sans-serif; text-transform: uppercase;font-size: 1.1rem; color: #000000; text-decoration: none; font-weight: 700; font-style:none; background-color: transparent;}
+
+a.account_update_link:link {font-family: 'Ubuntu', sans-serif; color: #000000; text-decoration:none; font-weight: 700; font-style:none;}
+a.account_update_link:visited {font-family: 'Ubuntu', sans-serif; color: #000000; text-decoration: none; font-weight: 700; font-style:none;}
+a.account_update_link:hover {font-family: 'Ubuntu', sans-serif; color: #000000; text-decoration: none; font-weight: 700; font-style:none; background-color: transparent !important;}
+a.account_update_link:active {font-family: 'Ubuntu', sans-serif; color: #000000; text-decoration: none; font-weight: 700; font-style:none;}
+
+#section_title {margin-top: 10px; margin-bottom: 10px;}
+
+.section_title {font-size: 20px; color: #333333; font-family: Verdana, Geneva, sans-serif; font-weight: normal;}
+
+.section_box_main_area{background-image: url(images/section_box_center_bg.jpg); background-repeat:repeat-x;}
+
+.required {font-family: Arial, Verdana, sans-serif, "Times New Roman"; font-size: 11px; color: #CC0000; text-decoration: none; font-weight: bold;}
+
+.checkout_form_header_row{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.form_text{font-family: Verdana; font-size: 12px; color: #999999; text-decoration: none; font-weight: bold; font-style:none;}
+
+.form_field_comment{font-family: Verdana; font-size: 11px; color: #666666; text-decoration: none; font-weight: normal; font-style:italic;}
+
+.main_text{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+.main_text_small{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+.high_res_files_info{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+.maintext{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: normal; text-decoration: none;}
+
+.heading{ font-size: 20px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #B5B6B1; font-weight: normal; text-decoration: none;}
+
+.welcome_sub_message{ font-size: 16px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+.product_results_title{ font-size: 16px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #941A00; font-weight: bold; text-decoration: none;}
+.product_results_subtitle{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+
+.page_title_policies{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none;}
+
+.error_text{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #CC0000; font-weight: normal; text-decoration: none;}
+
+.message_error{ font-size: 11px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #CC0000; font-weight: normal; text-decoration: none; background-color: #FFFFCC; border: thin solid #333333;}
+
+.message_success{font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; background-color: #FFFFCC; border: thin solid #333333;}
+
+.message_attention{font-size: 16px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #CC0000; font-weight: bold; text-decoration: none;}
+
+a:link {
+	color: #00A7E3;
+}
+a:visited {
+	color: #00A7E3;
+}
+a:hover {
+	color: #00A7E3;
+}
+a:active {
+	color: #00A7E3;
+}
+
+.text_accent_color_1{color: #00A7E3;}
+.text_accent_color_2{color: #FA8408;}
+.text_accent_color_light_gray_1{color: #999999;}
+
+a.anchor_link_1:link, a.anchor_link_1:visited{ font-size: 15px; font-family: Arial,Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: bold; text-decoration: none;}
+a.anchor_link_1:hover,a.anchor_link_1:active{ font-size: 15px; font-family: Arial,Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: bold; text-decoration: underline;}
+
+a.FAQ_link_1:link, a.FAQ_link_1:visited, a.FAQ_link_1:hover,a.FAQ_link_1:active{ font-size: 15px; font-family: Arial,Verdana, sans-serif, "Times New Roman"; color: #949293; font-weight: normal; text-decoration: underline;}
+
+a.buy_link_1:link, a.buy_link_1:visited, a.buy_link_1:hover,a.buy_link_1:active{ font-size: 14px; font-family: Arial,Verdana, sans-serif, "Times New Roman"; color: #FA8408; font-weight: bold; text-decoration: underline;}
+
+.buy_price_text{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FA8408; font-weight: bold; text-decoration: none;}
+
+
+a.faq_link:link, a.faq_link:visited{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: underline;}
+a.faq_link:hover,a.faq_link:active{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: underline;}
+
+a.faq_link_1:link, a.faq_link_1:visited{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: normal; text-decoration: underline; line-height:24px;}
+a.faq_link_1:hover,a.faq_link_1:active{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: normal; text-decoration: underline; line-height:24px;}
+
+.edit_link, a.edit_link:link, a.edit_link:visited{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #949293; font-weight: 600; text-decoration: underline;}
+a.edit_link:hover,a.edit_link:active{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: 600; text-decoration: underline;}
+
+.item_in_cart{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #949293; font-weight: 600; text-decoration: none;}
+
+.logo_contest_link, a.logo_contest_link:link, a.logo_contest_link:visited{ font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #949293; font-weight: 600; text-decoration: underline;}
+a.logo_contest_link:hover,a.logo_contest_link:active{ font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: 600; text-decoration: underline;}
+
+a.download_low_res_link:link, a.download_low_res_link:visited{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: 600; text-decoration: underline;}
+a.download_low_res_link:hover,a.download_low_res_link:active{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: 600; text-decoration: underline;}
+
+.download_low_res_sub_text{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #8F807D; font-weight: normal; text-decoration: none;}
+
+a.hi_res_buy_link:link, a.hi_res_buy_link:visited{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: 600; text-decoration: underline;}
+a.hi_res_buy_link:hover,a.hi_res_buy_link:active{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: 600; text-decoration: underline;}
+
+.hi_res_buy_sub_text{ font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #8F807D; font-weight: normal; text-decoration: none;}
+
+.home_other_products_heading{ font-size: 32px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #5A5A5A; font-weight: 500; text-decoration: none;}
+
+.home_signs_banner_message{ font-size: 22px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: 600; text-decoration: none; line-height:24px;}
+
+a.biz_card_edit_link:link, a.biz_card_edit_link:visited{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: none;}
+a.biz_card_edit_link:hover,a.biz_card_edit_link:active{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: none;}
+
+
+a.special_edit_link:link, a.special_edit_link:visited{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: underline;}
+a.special_edit_link:hover,a.special_edit_link:active{ font-size: 14px; font-family: Arial,Verdana,  sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: underline;}
+
+.box_content{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: none;}
+
+.great_job_with_logo{ font-size: 15px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:26px;}
+
+.logo_low_rez_popup{ font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+
+.logo_low_rez_popup_box_logo_image {
+  max-width: 200px;
+  max-height: 120px;
+  width: expression(this.width > 200 ? "200px" : true);
+  height: expression(this.height > 120 ? "120px" : true);
+}
+
+.logo_low_rez_popup_congrats{ font-size: 22px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: normal; text-decoration: none; line-height:30px;}
+
+a.logo_low_rez_popup_download_link:link,a.logo_low_rez_popup_download_link:visited, a.link_logo_download_web_jpg:hover,a.link_logo_download_web_jpg:active{ font-size: 16px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color:#757575; font-weight: bold; text-decoration: underline;}
+
+.logo_low_rez_popup_contest_logo{float:left; margin-left:55px; margin-top:5px;}
+
+.logo_low_rez_popup_contest_text{float:left; font-size: 16px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #868383; font-weight:600; text-decoration: none; line-height:24px; margin-left:20px;}
+
+
+.logo_edit_limit_popup_heading{ font-size: 24px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: normal; text-decoration: none; line-height:30px;}
+
+.logo_edit_limit_popup_text{float:left; font-size: 16px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #888787; font-weight:600; text-decoration: none; line-height:24px; margin-left:20px;}
+
+a.logo_edit_limit_popup_link:link, a.logo_edit_limit_popup_link:visited{ font-size: 18px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #888787; font-weight: 600; text-decoration: underline;}
+a.logo_edit_limit_popup_link:hover,a.logo_edit_limit_popup_link:active{ font-size: 18px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #888787; font-weight: 600; text-decoration: underline;}
+
+a.logo_edit_limit_popup_buy_link:link, a.logo_edit_limit_popup_buy_link:visited, a.logo_edit_limit_popup_buy_link:hover,a.logo_edit_limit_popup_buy_link:active{ font-size: 18px; font-family: 'Open Sans', Arial,Verdana, sans-serif, "Times New Roman"; color: #FFA200; font-weight: 600; text-decoration: underline;}
+
+
+.biz_card_approval_notice_popup{font-size: 16px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight:600; text-decoration: none; line-height:24px;}
+
+.biz_card_approval_notice_popup_notice{font-size: 16px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #E31917; font-weight:600; text-decoration: none; line-height:24px;}
+
+.biz_card_approval_popup{ font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #666666; font-weight: normal; text-decoration: none;}
+
+.biz_card_approval_popup_heading{ font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #666666; font-weight: bold; text-decoration: none;}
+
+a.biz_card_approval_popup_edit_link:link, a.biz_card_approval_popup_edit_link:visited{ font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #666666; font-weight: normal; text-decoration: underline;}
+a.biz_card_approval_popup_edit_link:hover,a.biz_card_approval_popup_edit_link:active{ font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #666666; font-weight: normal; text-decoration: underline;}
+
+.biz_card_shipping_info_popup_heading{ font-size: 16px; font-family: 'Open Sans', arial, sans-serif; color: #999999; font-weight: bold; text-decoration: none;}
+
+.box_content_header{ font-size: 26px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:32px;}
+
+.box_content_info{ font-size: 15px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:22px;}
+
+.box_content_text_plain{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none; line-height:normal;}
+
+.box_content_product_special_bar_text{ font-size: 16px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: bold; text-decoration: none; line-height:normal;}
+
+.box_content_logo_and_biz_card_combo_offer_text{ font-size: 19px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #E50303; font-weight: bold; text-decoration: none; line-height:normal;}
+
+.biz_card_buy_bullet_list{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none; line-height:24px;}
+
+a.link_biz_card_order_more:link, a.link_biz_card_order_more:visited, a.link_biz_card_order_more:hover,a.link_biz_card_order_more:active{font-size: 26px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FA8408; font-weight: bold; text-decoration: underline; line-height:40px;}
+
+a.link_plain_dark:link, a.link_plain_dark:visited{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: underline;}
+a.link_plain_dark:hover,a.link_plain_dark:active{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: underline;}
+
+
+.buy_logo_vector_file_info{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:22px;}
+
+.buy_logo_vector_header{ font-size: 16px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FA8408; font-weight: bold; text-decoration: none; line-height:32px;}
+
+.logo_files_include_info{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:20px;}
+
+.logo_file_buy_info{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: bold; text-decoration: none; line-height:16px;}
+
+.logo_file_buy_info_save{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: bold; text-decoration: none;}
+
+.biz_card_confirm_correct_info_message{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none; line-height:22px; font-style:italic;}
+
+.biz_card_shipping_info_submitted_message{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: none; line-height:15px;}
+
+a.link_how_to_use_files:link, a.link_how_to_use_files:visited{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+a.link_how_to_use_files:hover,a.link_how_to_use_files:active{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: normal; text-decoration: none;}
+
+.checkout_product_name{font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: bold; text-decoration: none;}
+
+.receipt_thanks{font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #00A7E3; font-weight: bold; text-decoration: none;}
+
+.receipt_thanks_sub{font-size: 11px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: bold; text-decoration: none;}
+
+.member_nav_header {font-family: Verdana; font-size: 11px; color: #999999; text-decoration: none; font-weight: normal;}
+a.member_nav:link {font-family: Verdana; font-size: 11px; color: #0099FF; text-decoration: none; font-weight: normal;}
+a.member_nav:visited {font-family: Verdana; font-size: 11px; color: #0099FF; text-decoration: none; font-weight: normal;}
+a.member_nav:hover {font-family: Verdana; font-size: 11px; color: #0099FF; text-decoration: none; font-weight: normal;}
+a.member_nav:active {font-family: Verdana; font-size: 11px; color: #0099FF; text-decoration: none; font-weight: normal;}
+
+a.member_nav_big:link {font-family: Verdana; font-size: 14px; color: #0099FF; text-decoration: none; font-weight: bold;}
+a.member_nav_big:visited {font-family: Verdana; font-size: 14px; color: #0099FF; text-decoration: none; font-weight: bold;}
+a.member_nav_big:hover {font-family: Verdana; font-size: 14px; color: #0099FF; text-decoration: none; font-weight: bold;}
+a.member_nav_big:active {font-family: Verdana; font-size: 14px; color: #0099FF; text-decoration: none; font-weight: bold;}
+
+a.member_mail_nav:link {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.member_mail_nav:visited {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.member_mail_nav:hover {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.member_mail_nav:active {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+
+a.member_mail_nav_not_read:link {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.member_mail_nav_not_read:visited {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.member_mail_nav_not_read:hover {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.member_mail_nav_not_read:active {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+
+.member_group_nav {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal;}
+a.member_group_nav:link {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal;}
+a.member_group_nav:visited {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal;}
+a.member_group_nav:hover {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal;}
+a.member_group_nav:active {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: underline; font-weight: normal;}
+
+a.member_group_topic_link:link {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.member_group_topic_link:visited {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.member_group_topic_link:hover {font-family: Verdana; font-size: 11px; color: #941c1d; text-decoration: none; font-weight: bold;}
+a.member_group_topic_link:active {font-family: Verdana; font-size: 11px; color: #941c1d; text-decoration: none; font-weight: bold;}
+
+a.member_group_topic_sub_link:link {font-family: Verdana; font-size: 10px; color: #999999; text-decoration: none; font-weight: bold;}
+a.member_group_topic_sub_link:visited {font-family: Verdana; font-size: 10px; color: #999999; text-decoration: none; font-weight: bold;}
+a.member_group_topic_sub_link:hover {font-family: Verdana; font-size: 10px; color: #941c1d; text-decoration: none; font-weight: bold;}
+a.member_group_topic_sub_link:active {font-family: Verdana; font-size: 10px; color: #941c1d; text-decoration: none; font-weight: bold;}
+
+a.member_group_topic_num_replies:link {font-family: Verdana; font-size: 12px; color: #999999; text-decoration: none; font-weight: bold;}
+a.member_group_topic_num_replies:visited {font-family: Verdana; font-size: 12px; color: #999999; text-decoration: none; font-weight: bold;}
+a.member_group_topic_num_replies:hover {font-family: Verdana; font-size: 12px; color: #941c1d; text-decoration: none; font-weight: bold;}
+a.member_group_topic_num_replies:active {font-family: Verdana; font-size: 12px; color: #941c1d; text-decoration: none; font-weight: bold;}
+
+.member_group_topic_sub_text{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration: none;}
+
+.member_name{font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: bold;}
+.member_large_post{font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: normal;}
+.member_action{font-family: Verdana; font-size: 11px; color: #9D3B18; text-decoration: none; font-weight: normal;}
+
+.member_form{font-family: Verdana; font-size: 11px; color: #999999; text-decoration: none; font-weight: normal;}
+.member_form_field_text{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+.member_form_field_bold{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+.member_form_notation{font-family: Verdana; font-size: 9px; color: #999999; text-decoration: none; font-weight: normal;}
+
+
+
+.text_timetamp{font-family: Verdana; font-size: 11px; color: #999999; text-decoration: none; font-weight: normal;}
+
+a.link_member_username_big:link{font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username_big:visited{font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username_big:hover {font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username_big:active{font-family: Verdana; font-size: 18px; color: #000000; text-decoration: none; font-weight: bold;}
+
+a.link_member_username:link{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username:visited{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username:hover {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+a.link_member_username:active{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: bold;}
+
+
+a.link_member_post:link{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.link_member_post:visited{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.link_member_post:hover {font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+a.link_member_post:active{font-family: Verdana; font-size: 11px; color: #000000; text-decoration: none; font-weight: normal;}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.lg-footer-wrapper {
+  width: 100%;
+  background-color: #8F0887;
+  color: #ffffff;
+}
+
+.lg-footer-brief {
+  padding: 5px 0 5px;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 980px;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.footer_link{padding: 5px 0 5px; font-size: 12px; font-family: 'Ubuntu', sans-serif; color: #fff; font-weight: 400; text-transform: uppercase;}
+
+a.footer_link:link {font-size: 12px; font-family: 'Ubuntu', sans-serif; color: #fff; font-weight: normal; text-transform: uppercase;}
+a.footer_link:visited {font-size: 12px; font-family: 'Ubuntu', sans-serif; color: #fff; font-weight: normal; text-transform: uppercase;}
+a.footer_link:hover {font-size: 12px; font-family: 'Ubuntu', sans-serif; color: #fff; font-weight: normal; text-transform: uppercase;}
+a.footer_link:active {font-size: 12px; font-family: 'Ubuntu', sans-serif; color: #fff; font-weight: normal; text-transform: uppercase;}
+
+.cart_list_table_header_row{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #FFFFFF; font-weight: bold; background-color: #666666; text-decoration: none;}
+.cart_list_table_data_1_row{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #000000; font-weight: normal; background-color: #EAEAEA; text-decoration: none;}
+.cart_list_table_data_2_row{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #000000; font-weight: normal; background-color: #FFFFFF; text-decoration: none;}
+
+.table_list_header_bar{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #FFFFFF; font-weight: bold; background-color: #666666; text-decoration: none; background-image: url(/images/bar_bg_dark.jpg); background-repeat: repeat-x;}
+
+.table_list_header_bar_completed{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #FFFFFF; font-weight: bold; background-color: #666666; text-decoration: none; background-image: url(/images/bar_bg_light.jpg); background-repeat: repeat-x;}
+
+.table_list_header_bar_current{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #FFFFFF; font-weight: bold; background-color: #666666; text-decoration: none; background-image: url(/images/bar_bg_red.jpg); background-repeat: repeat-x;}
+
+.table_list{ border: #666666 solid; border-width: 1px 1px 1px; border-color: #666666 #666666 #666666; background-color: #FFFFFF;}
+.table_list_title{ font-size: 14px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #666666; font-weight: bold; text-decoration: none;}
+.table_list_row_1{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #000000; font-weight: normal; background-color: #FFFFFF; text-decoration: none;}
+
+.table_list_row_2{ font-size: 12px; font-family: Arial, Verdana, sans-serif, Times New Roman; color: #000000; font-weight: normal; background-color: #EAEAEA; text-decoration: none;}
+
+.image_link_member_profile{border: #000000 solid; border-width: 1px 1px 1px; border-color: #000000 #000000 #000000;}
+.image_link_member_profile_no_image{border-width: 0px 0px 0px;}
+
+.site_edit_heading, a.site_edit_heading:link, a.site_edit_heading:visited, a.site_edit_heading:hover, a.site_edit_heading:active{ font-size: 22px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_edit_subheading{ font-size: 16px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_edit_table{ border: #555555 solid; border-width: 1px 1px 1px; border-color: #555555 #555555 #555555;}
+
+.site_edit_main_heading, a.site_edit_main_heading:link, a.site_edit_main_heading:visited, a.site_edit_main_heading:hover, a.site_edit_main_heading:active{ font-size: 20px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_edit_section_heading{ font-size: 20px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_edit_main_text, a.site_edit_main_text:link, a.site_edit_main_text:visited, a.site_edit_main_text:hover, a.site_edit_main_text:active{ font-size: 8px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration:none;}
+
+.site_edit_image_caption, a.site_edit_image_caption:link, a.site_edit_image_caption:visited, a.site_edit_image_caption:hover, a.site_edit_image_caption:active{ font-size: 8px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none; font-style:italic;}
+
+.site_edit_url_info{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none; font-style:none;}
+
+.site_edit_address, a.site_edit_address:link, a.site_edit_address:visited, a.site_edit_address:hover, a.site_edit_address:active{ font-size: 11px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_edit_phone, a.site_edit_phone:link, a.site_edit_phone:visited, a.site_edit_phone:hover, a.site_edit_phone:active{ font-size: 20px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_edit_copyright, a.site_edit_copyright:link, a.site_edit_copyright:visited, a.site_edit_copyright:hover, a.site_edit_copyright:active{ font-size: 9px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: normal; text-decoration: none;}
+
+
+.site_step_2_heading{ font-size: 22px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_step_2_subheading{ font-size: 16px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_step_2_template_table{}
+
+.site_step_2_template_main_heading{ font-size: 25px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_step_2_section_heading{ font-size: 20px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #939393; font-weight: normal; text-decoration: none;}
+
+.site_step_2_main_text{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none;}
+
+.site_step_2_image_caption_text{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: normal; text-decoration: none; font-style:italic;}
+
+.site_step_2_address{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_step_2_phone{ font-size: 20px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: bold; text-decoration: none;}
+
+.site_step_2_template_copyright{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: normal; text-decoration: none;}
+
+
+
+
+#site_step_2_top_edit_buttons_container{position: absolute; width:836px; height:50px; left: 50%; margin-left: -418px; padding: 0px; background-image: url(/smartsite/images/top_edit_buttons.png); background-repeat: no-repeat;}
+
+a.site_step_2_top_edit_button:link {font-size: 18px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none;}
+a.site_step_2_top_edit_button:visited {font-size: 18px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none;}
+a.site_step_2_top_edit_button:hover {font-size: 18px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none;}
+a.site_step_2_top_edit_button:active {font-size: 18px; font-family: Trebuchet, Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none;}
+
+#site_step_2_edit_box_icon_top_image{position: absolute; width:30px; height:25px; top: 170px; left: 50%; margin-left: 315px; padding: 0px; display:none;}
+
+#site_step_2_edit_box_icon_heading_1{position: absolute; width:30px; height:25px; top: 468px; left: 50%; margin-left: 315px; padding: 0px; display:none;}
+
+#site_step_2_edit_box_text_1{position: absolute; width:30px; height:25px; top: 468px; left: 50%; margin-left: 315px; padding: 0px; display:none;}
+
+.site_step_2_edit_box_off{border:none; border-width: 0px 0px 0px 0px;}
+
+.site_step_2_edit_box_on{border: #4E4E4E solid; border-width: 3px 3px 3px 3px; border-color: #4E4E4E #4E4E4E #4E4E4E #4E4E4E; padding: 1px;}
+
+#site_step_2_text_edit_box
+{
+	position:fixed;
+	width: 340px;
+	height: 560px;
+	top:100px;
+	left: 50%;
+	margin-left: -170px;
+	margin-top: 0px;
+	padding-left:0px;
+	padding-top:0px;
+	font-size: 14px;
+	font-family: Trebuchet, Arial, Verdana, Helvetica;
+	color: #000000;
+	text-decoration: none;
+	font-weight: normal;
+	background-image: url(/smartsite/images/edit_box_mockup_1.png);
+	background-repeat: no-repeat;
+}
+
+.site_step_2_text_edit_box_header
+{
+	font-size: 24px;
+	font-family: Trebuchet, Arial, Verdana, Helvetica;
+	font-style:normal;
+	color: #A19D9C;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.site_step_2_text_edit_box_footer_text
+{
+	font-size: 18px;
+	font-family: Trebuchet, Arial, Verdana, Helvetica;
+	font-style:italic;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#display_box
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:2000px;
+	z-index: 5000;
+	background-image:url('/images/bg_blocker.png');
+	background-repeat:repeat;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#page_popup_container
+{
+	
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index: 10000;
+	background-image:url('/images/bg_blocker.png');
+	background-repeat:repeat;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#display_box_with_transparent
+{
+	z-index: 10000;
+	filter: alpha(opacity=50); /*older IE*/
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE */
+	-moz-opacity: .50; /*older Mozilla*/
+	-khtml-opacity: 0.5;   /*older Safari*/
+	opacity: 0.5;   /*supported by current Mozilla, Safari, and Opera*/
+	background-color:#000000;
+	position:fixed; top:0px; left:0px; width:100%; height:100%; text-align:center; vertical-align:middle;
+}
+
+#site_image_editor_box
+{
+	position:absolute;
+	width: 900px;
+	height: 600px;
+	top: 25px;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 0px;
+	padding-left:0px;
+	padding-top:0px;
+	font-size: 14px;
+	font-family: Trebuchet, Arial, Verdana, Helvetica;
+	color: #7C7C7C;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.logo_download_header{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#9A9A9A; font-weight: bolder; text-decoration: none;}
+
+.logo_download_options_bg_type_header{ font-size: 9px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: normal; text-decoration: none;}
+
+.logo_download_options_image_type_header{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: normal; text-decoration: none;}
+.logo_download_options_image_type_sub_header{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: normal; text-decoration: none;}
+
+a.link_logo_download:link,a.link_logo_download:visited{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: normal; text-decoration: none;}
+a.link_logo_download:hover,a.link_logo_download:active{ font-size: 10px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: normal; text-decoration: none;}
+
+a.link_logo_download_web_jpg:link,a.link_logo_download_web_jpg:visited{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: bold; text-decoration: underline;}
+a.link_logo_download_web_jpg:hover,a.link_logo_download_web_jpg:active{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#999999; font-weight: bold; text-decoration: underline;}
+
+.logo_download_grid_table{border: 1px solid #DDDDDD;}
+
+.enter_promo_code_message{ font-size: 12px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color:#9A9A9A; font-weight: bolder; text-decoration: none;}
+
+.top_nav_bar{font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: 600; text-decoration: none; background-color:#AAADAD;
+
+border-top: 1px;
+border-top-width: 1px;
+border-top-style:solid;
+border-top-color:#666666;
+
+border-bottom: 1px;
+border-bottom-width: 1px;
+border-bottom-style:solid;
+border-bottom-color:#666666;
+}
+
+a.top_nav_bar_link_off:link, a.top_nav_bar_link_off:visited{height:16px; padding-top:5px; padding-bottom:5px; padding-left:20px; padding-right:20px; font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: 600; text-decoration: none;}
+
+a.top_nav_bar_link_off:hover, a.top_nav_bar_link_off:active {height:16px; padding-top:5px; padding-bottom:5px; padding-left:20px; padding-right:20px; font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: 600; text-decoration: none; background-color:#919393;}
+
+a.top_nav_bar_link_on:link, a.top_nav_bar_link_on:visited, a.top_nav_bar_link_on:hover, a.top_nav_bar_link_on:active {height:16px; padding-top:5px; padding-bottom:5px; padding-left:20px; padding-right:20px; font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FFFFFF; font-weight: 600; text-decoration: none; background-color:#919393;}
+
+.nav_dropdown{font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #7C7C7C; font-weight: 600; text-decoration: none; background-color:#FFFFFF;
+
+padding-top:5px;
+padding-bottom:5px;
+
+border-left: 1px;
+border-left-width: 1px;
+border-left-style:solid;
+border-left-color:#CCCCCC;
+
+border-right: 1px;
+border-right-width: 1px;
+border-right-style:solid;
+border-right-color:#CCCCCC;
+
+border-bottom: 1px;
+border-bottom-width: 1px;
+border-bottom-style:solid;
+border-bottom-color:#CCCCCC;
+}
+
+a.nav_dropdown_custom_link:link, a.nav_dropdown_custom_link:visited{display:block; width:140px; padding-top:5px; padding-bottom:5px; padding-left:20px; font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #7C7C7C; font-weight: 600; text-decoration: none; line-height:24px;}
+
+a.nav_dropdown_custom_link:hover, a.nav_dropdown_custom_link:active {display:block; width:140px; padding-top:5px; padding-bottom:5px; padding-left:20px; font-size: 12px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: 600; text-decoration: none; line-height:24px; background-color:#F5F5F5;}
+
+.nav_dropdown_divider {margin-left:20px; width:119px; height:5px; background-image:url('images/nav_dropdown_horizontal_divider.png'); background-repeat:no-repeat;}
+
+/*+++++ START ACCOUNT NAV +++++*/
+		div.my_products_section_container{
+			clear:both;
+			width:100%;
+			height:auto;
+			padding-top:4px;
+			padding-bottom:4px;
+			border-bottom: 1px;
+			border-bottom-width: 1px;
+			border-bottom-style:solid;
+			border-bottom-color:#000000;
+		}
+
+		div.my_products_section{
+			float:left;
+			width:816px;
+			padding-top:20px;
+			padding-bottom:20px;
+			border-left: 1px;
+			border-left-width: 1px;
+			border-left-style:solid;
+			border-left-color:#000000;
+		}
+		
+		.my_products_section_content{
+			padding-top:20px;
+			padding-bottom:20px;
+		}
+		
+		.my_products_section_title{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: 700; text-decoration: none;}
+	
+		.left_nav{ font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #7D7D7D; font-weight: 600; text-decoration: none; line-height:20px; padding-top:30px;
+		}
+		
+		.left_nav_header{ font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: bold; text-decoration: none; line-height:20px;}
+		
+		a.left_nav_link:link, a.left_nav_link:visited{ font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #7D7D7D; font-weight: 600; text-decoration: none; line-height:20px;}
+a.left_nav_link:hover,a.left_nav_link:active{ font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #333333; font-weight: 600; text-decoration: none; line-height:20px;}
+
+	hr.biz_card_section_divider{margin-top:20px; margin-bottom:20px;}
+/*----- END ACCOUNT NAV -----*/
+
+/*+++++ start hi res logo +++++ */
+	.hi_res_logo_title{font-size: 28px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: 600; text-decoration: none; padding-bottom:12px;}
+	.hi_res_logo_desc{font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #666666; font-weight: 600; text-decoration: none;}
+	.hi_res_bonus_pack{font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #FF9A00; font-weight: bold; text-decoration: none;}
+	.hi_res_logo_get{font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: normal; text-decoration: none; line-height:20px;}
+	.hi_res_logo_price{font-size: 14px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #000000; font-weight: normal; text-decoration: none;}
+	
+/*----- end hi res logo ----- */
+
+/*+++++ START BANNER ADS +++++*/
+	div.banner_ads_container{
+		clear:both;
+		width:100%;
+		height:auto;
+		border-top: 1px;
+		border-top-width: 1px;
+		border-top-style:solid;
+		border-top-color:#000000;
+		margin-top:30px;
+		padding-top:30px;
+	}
+		
+	div.banner_ad_container{margin-top:0px;}
+	
+	.banner_ad_title{padding-bottom:10px; padding-right:29px;}
+	
+	a.banner_ad_link:link,  a.banner_ad_link:visited{font-size: 20px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #505050; font-weight: bold; text-decoration: none;}
+	
+	a.banner_ad_link:hover, a.banner_ad_link:active{font-size: 20px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #06ABE3; font-weight: bold; text-decoration: none;}
+/*----- END BANNER ADS -----*/
+
+.top_banner_card_price{ font-size: 18px; font-family: Trebuchet, Arial, Verdana, Helvetica; color: #FA8408; text-decoration: none; font-weight: bolder; font-style:none;}
+
+
+
+/*+++++ START USER SITE STEPS  +++++*/
+	.user_site_step_text {font-size: 14px; color: #999999; text-decoration:none;}
+	
+	a.user_site_step_nav_off:link,  a.user_site_step_nav_off:visited,a.user_site_step_nav_off:hover, a.user_site_step_nav_off:active, .user_site_step_nav_off{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: normal; text-decoration:none;}
+	
+	a.user_site_step_nav_on:link,  a.user_site_step_nav_on:visited,a.user_site_step_nav_on:hover, a.user_site_step_nav_on:active, .user_site_step_nav_on{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #A4DA32; font-weight: normal; text-decoration: none;}
+
+	
+	.user_site_text_messages_accent{ font-size: 14px; font-family: Arial, Verdana, sans-serif, "Times New Roman"; color: #A4DA32; font-weight: normal; text-decoration: none;}
+	
+	.user_site_step_domain_search_text_field{
+		border-width: 1px;
+		border-style: solid;
+		border-color: #cccccc;
+		width: 300px;
+		height: 30px;
+		font-size: 18px;
+		color: #999999;
+	}
+	.user_site_step_domain_search_dropdown{font-size: 18px; color: #999999;}
+	
+	.user_site_step_accent_color{font-size: 14px; color:#a4da32;}
+	
+	.user_site_step_domain_error_message{color:#CC0000;}
+	
+	.user_site_step_comment{font-family: Verdana; font-size: 10px; color: #666666; text-decoration: none; font-weight: normal; font-style:italic;}
+
+	.textfield_effect_form
+	{
+		border-width: 1px;
+		border-style: solid;
+		border-color: #cccccc;
+		width: 240px;
+		height: 24px;
+		font-size: 14px;
+		color: #999999;
+	}
+
+	.dropdown_effect_form{font-size: 16px;color: #999999;}
+	
+	.text_small{font-size: 10px;}
+/*----- END USER SITE STEPS -----*/
+
+a.link_custom_logo_upsell_box_1:link,  a.link_custom_logo_upsell_box_1:visited, a.link_custom_logo_upsell_box_1:hover, a.link_custom_logo_upsell_box_1:active
+{
+	display:block;
+	margin-bottom:-3px;
+	width:255px;
+	height:75px;
+	padding-top:14px;
+	line-height:14px; 
+	padding-left:22px;
+	background-image: url(images/custom_logo_upsell_box_bg_1.png);
+	background-repeat:no-repeat;
+	text-align:left;
+	font-size: 13px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #999999; font-weight: 600; text-decoration: none;}
+
+.custom_logo_upsell_box_1_save_big{line-height:14px;}
+.custom_logo_upsell_box_1_see_samples{font-size: 11px; color: #F58926; text-decoration: underline;}
+.custom_logo_upsell_box_1_coupon_code{line-height:22px;}
+
+.header_welcome_with_name{font-size: 24px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #ABACAE; font-weight: 600; text-decoration: none;}
+
+.home_product_section_title{ font-size: 15px; font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman"; color: #949293; font-weight: 600; text-decoration: none;}
+
+a.home_product_section_button:link,  a.home_product_section_button:visited
+{
+	padding-top:3px;
+	padding-bottom:3px; 
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#C6C6C6;
+	text-align:center;
+	font-size: 13px;
+	font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman";
+	color: #FFFFFF;
+	font-weight: 600;
+	text-decoration:none;
+}
+
+a.home_product_section_button:hover, a.home_product_section_button:active
+{
+	padding-top:3px;
+	padding-bottom:3px; 
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#06ABE3;
+	text-align:center;
+	font-size: 13px;
+	font-family: 'Open Sans', Arial, Verdana, sans-serif, "Times New Roman";
+	color: #FFFFFF;
+	font-weight: 600;
+	text-decoration:none;
+}
+
+.offer_checkbox_off
+{
+    width: 46px;
+    height: 46px;
+    background: transparent url('images/offers/checkbox_off.png') no-repeat 0 50%;
+}
+
+.offer_checkbox_on
+{
+	width: 46px;
+    height: 46px;
+    background: transparent url('images/offers/checkbox_on.png') no-repeat 0 50%;
+}
+
+.lg-login-form input[type=text],
+.lg-login-form input[type=password] {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    margin-top: 0.4rem;
+    line-height: 27px;
+    padding: 8px;
+    box-shadow: none;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -kthtml-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    outline: 0 none;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.lg-login-form input[type=text]:active,
+.lg-login-form input[type=text]:focus,
+.lg-login-form input[type=password]:active,
+.lg-login-form input[type=password]:focus{
+    -webkit-box-shadow: 0px 0px 3px 0px #8F0887;
+    -moz-box-shadow: 0px 0px 3px 0px #8F0887;
+    box-shadow: 0px 0px 3px 0px #8F0887;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -kthtml-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    outline: 0 none;
+}
+
+.lg-login-form label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.lg-login-form {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.lg-login-form .form_field_comment {
+    font-size: 14px;
+}
+
+.lg-login-form .btn.lg-btn-color {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 3px;
+    margin: 10px 0;
+    color: #000000 !important;
+    background-color: #ffea00;
+    padding: 8px 16px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.lg-login-form .btn.lg-btn-color:hover,
+.lg-login-form .btn.lg-btn-color:focus {
+     background-color: #E6D200;
+ }
+
+.btn .lg-btn-color {
+    display: inline-block;
+    color: #000 !important;
+    background-color: #ffea00;
+    font-size: 15px;
+    padding: 8px 12px;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 3px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn.lg-btn-color.btn-raised:not(.btn-link):hover,
+.btn.lg-btn-color.btn-raised:not(.btn-link):focus {
+    background-color: #e6d300;
+}
+
+.lg-footer {
+  background-image: url('images/header-bg.jpg');
+  background-color: #8F0887;
+  background-repeat: repeat;
+  background-position: left top;
+  padding: 50px 0 40px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.lg-footer .lg-menu-footer {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.lg-footer .lg-menu-footer li.head {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.lg-footer .lg-menu-footer a {
+  padding: 6px 0;
+  color: #fff;
+}
+
+.lg-footer .lg-menu-footer a:hover { text-decoration: underline; }
+
+.lg-footer .lg-menu-footer-social-bg {
+    text-align: center;
+}
+
+.lg-footer .lg-menu-footer-social {
+  display: inline-block;
+  max-width: 130px;
+}
+
+.lg-footer .lg-menu-footer-social li {
+  display: inline-block;
+}
+
+.lg-footer .lg-menu-footer-social .icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 6px 12px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 12px;
+  color: #8F0887;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lg-footer .lg-menu-footer-social .icon .fa {
+  position: relative;
+  top: 4px;
+  display: block;
+}
+
+.lg-footer .lg-menu-footer-social .btn {
+  margin-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lg-footer .lg-accredited {
+    margin: 0 auto;
+  text-align: center;
+}
+
+.lg-footer .bbb {
+    display: inline-block;
+    background: url('images/bbb.png') no-repeat right center;
+    background-size: contain;
+    width: 114px;
+    height: 43px;
+    margin-top: 5px;
+}
+
+.lg-footer .copyright {
+  margin-top: 45px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.lg-footer .copyright  a {
+    color: #FFFFFF;
+}
+
+.btn-account-neutral {
+    color: #ffffff;
+    background-color: #aaadad;
+    font-weight: 300 !important;
+}
+
+.btn-account-neutral:hover {
+    color: #ffffff !important;
+    background-color: #00a7e3;
+}
+
+.btn-account-neutral:active {
+    color: #ffffff !important;
+    background-color: #00a7e3;
+}
+
+.btn-account-neutral:focus {
+    color: #ffffff !important;
+    background-color: #00a7e3;
+}
+
+
+.logo-my-logo-container {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+    max-width: 980px;
+    padding: 20px;
+}
+
+.logo-my-logo-wrapper {
+    width: 100%;
+    max-width: 240px;
+    margin: auto;
+    padding: 20px 20px 0 20px;
+    border:  1px #e4e4e4 solid;
+    border-radius: 4px;
+    box-shadow: 0 0 6px #ccc;
+}
+
+.logo-my-logo {
+    max-width: 120px;
+    margin: auto;
+}
+
+
+
+.my-logo-download-btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+    padding: 4px 6px;
+    min-width: 80px;
+    text-align: center;
+    text-decoration: none !important;
+    border-radius: 3px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .lg-footer .lg-menu-footer {
+      text-align: left;
+  }
+
+  .lg-footer .lg-menu-footer-social {
+      float: right;
+  }
+  .lg-footer .lg-menu-footer-social .icon {
+      margin: 0 0 12px 12px;
+  }
+
+  .lg-footer .lg-accredited {
+      text-align: right;
+  }
+}
+
+#main_content.new_lg_main_content {
+  background-color: transparent;
+  border: 0 none;
+}
+
+.new_lg_main_content  .message_error {
+  font-size: 18px;
+  color: #CC0000;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0 none;
+  margin-top: 30px;
+  padding: 6px 12px;
+}
+
+.lg-navbar {
+  z-index: 5;
+  margin: 0;
+  border: 0 none;
+  border-radius: 0;
+  background: #fff;
+  color: #000;
+}
+
+.navbar-header {
+  height: 55px;
+}
+
+.navbar-header a {
+  display: inline;
+  line-height: 53px;
+}
+
+.navbar-header a img {
+  position: relative;
+  top: 12px;
+}
+
+.lg-404 {
+  background-image: url('images/404-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding-top: 55px;
+  padding-bottom: 67px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.lg-404 .container {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.lg-404 h1 {
+  color: #8F0887;
+  margin-bottom: 12px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.lg-404 h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.lg-404 p {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.lg-404 .row-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.lg-404 .row-flex div {
+  margin: 1rem;
+}
+
+.lg-404 .btn.lg-btn-color {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  box-shadow: none !important;
+  color: #ffffff !important;
+}
+
+.lg-404 .btn.lg-btn-color.btn-raised:not(.btn-link):hover,
+.lg-404 .btn.lg-btn-color.btn-raised:not(.btn-link):focus {
+   background-color: #ffea00;
+   border-color: #ffea00;
+   color: #000000 !important;
+}
+
+
+.lg-samples-menu {
+  background: #f9f9f9;
+  padding: 42px 0 70px;
+  color: #9a9a9a;
+}
+
+.lg-samples-menu h2 {
+  text-align: center;
+  margin: 15px 0 15px;
+  color: #9a9a9a;
+}
+
+.lg-samples-menu p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.lg-samples-menu .lg-samples-menu-list {
+  padding: 0;
+  list-style: none;
+  margin: 60px 0 15px;
+}
+
+.lg-samples-menu .lg-samples-menu-list li {
+  display: block;
+  font-size: 18px;
+  line-height: 25px;
+  float: left;
+  width: 55%;
+  text-align: left;
+}
+
+.lg-samples-menu .lg-samples-menu-list li:nth-child(2n) {
+   width: 40%;
+   margin-left: 0;
+ }
+
+.lg-samples-menu .lg-samples-menu-list li a {
+  color: #9a9a9a;
+}
+
+.lg-samples-menu .container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.lg-header {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  min-width: 100%;
+}
+
+.lg-header .lg-logo-nav {
+  margin-left: 6px;
+}
+.fa {
+    color: #d4d2d2;
+    font-size: 1.45rem;
+    margin-left: 0.6rem;
+    position: relative;
+    top: 1px;
+}
+
+.lg-btn-base {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+}
+
+.lg-btn-yellow {
+  background-color: #ffea00 !important;
+  color: #000000 !important;
+}
+
+.lg-btn-yellow:hover {
+  background-color: #e6d300 !important;
+  color: #000000 !important;
+}
+
+.lg-btn-purple {
+  border: 2px solid #8F0887;
+  background-color: #fff !important;
+  color: #999 !important;
+}
+
+.lg-btn-purple:hover {
+  background-color: #8F0887 !important;
+  color: #ffffff !important;
+}
+
+.lg-modal-content {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.lg-modal-header {
+    color: #ffffff;
+    background-color: #8F0887;
+}
+
+.lg-modal-close {
+    color: #fff !important;
+    text-shadow: 0 1px 0 #000 !important;
+    opacity: .9 !important;
+    filter: alpha(opacity=40) !important;
+}
+
+@media (min-width: 768px) {
+  .lg-header .lg-logo-nav {
+    margin-left: 0;
+  }
+
+  .lg-samples-menu .lg-samples-menu-list li,
+  .lg-samples-menu .lg-samples-menu-list li:nth-child(2n) {
+    width: 36%;
+    margin-left: 0;
+  }
+
+  .lg-samples-menu .lg-samples-menu-list li:nth-child(3n) {
+   width: 27%;
+   margin-left: 0;
+ }
+}
+
+@media (max-width: 490px ) {
+.lg-samples-menu .lg-samples-menu-list li,
+.lg-samples-menu .lg-samples-menu-list li:nth-child(2n),
+.lg-samples-menu .lg-samples-menu-list li:nth-child(3n) {
+  text-align: center;
+  float: none;
+  width: 100%;
+}
+}
